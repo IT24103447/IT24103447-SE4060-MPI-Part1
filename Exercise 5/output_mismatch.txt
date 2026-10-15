@@ -1,0 +1,7 @@
+Command: timeout --kill-after=5s 10s mpirun --stdin none --oversubscribe -np 4 ./message_mismatch
+Rank 1: synchronously sending x = 30 to rank 3, tag 0.
+Just a normal process From rank 2 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 0 machine ip-172-31-7-101.eu-north-1.compute.internal
+Rank 3: waiting for rank 0, tag 0, although the sender is rank 1.
+
+Observed exit status: 124

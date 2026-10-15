@@ -1,0 +1,9 @@
+Rank 0 on ip-172-31-7-101.eu-north-1.compute.internal: range 1 to 2500000, partial sum = 3125001250000
+Processes: 4
+Total sum: 50000005000000
+Expected sum: 50000005000000
+Verification: PASS
+Parallel execution time: 0.009988201 seconds
+Rank 1 on ip-172-31-7-101.eu-north-1.compute.internal: range 2500001 to 5000000, partial sum = 9375001250000
+Rank 2 on ip-172-31-11-149.eu-north-1.compute.internal: range 5000001 to 7500000, partial sum = 15625001250000
+Rank 3 on ip-172-31-11-149.eu-north-1.compute.internal: range 7500001 to 10000000, partial sum = 21875001250000

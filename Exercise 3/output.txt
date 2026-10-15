@@ -1,0 +1,12 @@
+Rank 2 on ip-172-31-11-149.eu-north-1.compute.internal: iterations = 2500000, circle hits = 1962739, seed = 221803
+Rank 1 on ip-172-31-7-101.eu-north-1.compute.internal: iterations = 2500000, circle hits = 1963491, seed = 117074
+Rank 3 on ip-172-31-11-149.eu-north-1.compute.internal: iterations = 2500000, circle hits = 1964021, seed = 326532
+Rank 0 on ip-172-31-7-101.eu-north-1.compute.internal: iterations = 2500000, circle hits = 1964607, seed = 12345
+Processes: 4
+Total iterations: 10000000
+Total circle hits: 7854858
+Estimated Pi: 3.1419432000
+Reference Pi: 3.1415926536
+Absolute error: 0.0003505464
+Iteration/count check: PASS
+Parallel execution time: 0.162079652 seconds

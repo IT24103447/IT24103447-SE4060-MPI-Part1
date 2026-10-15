@@ -1,0 +1,9 @@
+Command: mpirun --stdin none --oversubscribe -np 4 ./message2_bsend
+Just a normal process From rank 2 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 0 machine ip-172-31-7-101.eu-north-1.compute.internal
+Rank 1: sending x[10] to rank 3 using MPI_Bsend.
+Rank 1: buffered send completed and buffer detached.
+Rank 3: received y[10] from rank 1:
+0 10 20 30 40 50 60 70 80 90
+
+Observed exit status: 0
