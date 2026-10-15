@@ -1,0 +1,17 @@
+Previously completed run supplied by the student.
+Compile: mpic++ HelloMPI.c -o job1
+Run: mpirun --oversubscribe -np 4 ./job1
+
+Hello World! From rank 0 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 1 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 3 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 2 machine ip-172-31-7-101.eu-north-1.compute.internal
+
+Fresh EC2 run of the organized source (hostname buffer corrected):
+Compile: mpic++ -Wall -Wextra HelloMPI.c -o hello
+Run: mpirun --oversubscribe -np 4 ./hello
+
+Just a normal process From rank 1 machine ip-172-31-7-101.eu-north-1.compute.internal
+Hello World! From rank 0 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 3 machine ip-172-31-7-101.eu-north-1.compute.internal
+Just a normal process From rank 2 machine ip-172-31-7-101.eu-north-1.compute.internal
